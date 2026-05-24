@@ -1,11 +1,6 @@
-/* ===========================
-   PORTAFOLIO - main.js
-   Benjamin Alegria
-=========================== */
-
 document.addEventListener('DOMContentLoaded', function () {
 
-    // ── 1. NAVBAR: marcar enlace activo según scroll ──
+    // NAVBAR: marcar enlace activo según scroll
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('.nav-link');
 
@@ -28,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', updateActiveNav);
     updateActiveNav();
 
-    // ── 2. ANIMACIONES fade-up al hacer scroll ──
+    // ANIMACIONES fade-up al hacer scroll 
     const fadeElements = document.querySelectorAll('.skill-card, .tech-card, .project-card');
 
     fadeElements.forEach(el => el.classList.add('fade-up'));
@@ -46,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     fadeElements.forEach(el => observer.observe(el));
 
-    // ── 3. FORMULARIO DE CONTACTO con AJAX ──
+    // FORMULARIO DE CONTACTO con AJAX 
     const btnEnviar = document.getElementById('btnEnviar');
 
     if (btnEnviar) {
@@ -99,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // ── Helpers ──
+    //  Helpers 
     function showAlert(container, type, message) {
         const icons = { success: 'bi-check-circle-fill', danger: 'bi-exclamation-circle-fill' };
         container.innerHTML = `
@@ -115,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
 
-    // ── 4. Cerrar navbar mobile al hacer click en un enlace ──
+    //  Cerrar navbar mobile al hacer click en un enlace
     const navCollapse = document.getElementById('navbarNav');
     if (navCollapse) {
         navLinks.forEach(link => {
