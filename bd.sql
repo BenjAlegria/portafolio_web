@@ -1,18 +1,10 @@
--- ============================================
--- PORTAFOLIO WEB - Base de Datos
--- Autor: Benjamin Ignacio Alegria Barrientos
--- Fecha: 2026
--- ============================================
-
 CREATE DATABASE IF NOT EXISTS balegria_db1
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE balegria_db1;
+USE balegria_db1
 
--- ─────────────────────────────────────────────
 -- TABLA: admin_users (Usuarios administradores)
--- ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS admin_users (
     id         INT AUTO_INCREMENT PRIMARY KEY,
     username   VARCHAR(50)  NOT NULL UNIQUE,
@@ -24,9 +16,7 @@ CREATE TABLE IF NOT EXISTS admin_users (
 INSERT INTO admin_users (username, password) VALUES
 ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
 
--- ─────────────────────────────────────────────
 -- TABLA: biografia
--- ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS biografia (
     id          INT AUTO_INCREMENT PRIMARY KEY,
     nombre      VARCHAR(150) NOT NULL,
@@ -48,9 +38,7 @@ INSERT INTO biografia (nombre, titulo, descripcion, email, github, linkedin) VAL
     'https://linkedin.com/in/benjaminalegria'
 );
 
--- ─────────────────────────────────────────────
 -- TABLA: habilidades
--- ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS habilidades (
     id         INT AUTO_INCREMENT PRIMARY KEY,
     nombre     VARCHAR(100) NOT NULL,
@@ -69,9 +57,7 @@ INSERT INTO habilidades (nombre, icono_html, orden) VALUES
 ('GitHub',     '<i class="bi bi-github fs-1" style="color:#24292e"></i>',       7),
 ('IA Tools',   '<i class="bi bi-robot fs-1" style="color:#10a37f"></i>',        8);
 
--- ─────────────────────────────────────────────
 -- TABLA: tecnologias (Nivel actual y enfoque)
--- ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS tecnologias (
     id          INT AUTO_INCREMENT PRIMARY KEY,
     nombre      VARCHAR(100) NOT NULL,
@@ -89,9 +75,7 @@ INSERT INTO tecnologias (nombre, descripcion, orden) VALUES
 ('Git/GitHub',  'Conociendo el flujo de control de versiones y trabajo colaborativo.',    6),
 ('React',       'Iniciando en conceptos de componentes y estado, con proyectos pequeños.',7);
 
--- ─────────────────────────────────────────────
 -- TABLA: proyectos
--- ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS proyectos (
     id          INT AUTO_INCREMENT PRIMARY KEY,
     titulo      VARCHAR(200) NOT NULL,
@@ -123,9 +107,7 @@ INSERT INTO proyectos (titulo, descripcion, tecnologias, url_demo, url_github) V
     '#', '#'
 );
 
--- ─────────────────────────────────────────────
 -- TABLA: contacto (Mensajes recibidos)
--- ─────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS contacto (
     id         INT AUTO_INCREMENT PRIMARY KEY,
     nombre     VARCHAR(150) NOT NULL,
@@ -135,7 +117,3 @@ CREATE TABLE IF NOT EXISTS contacto (
     leido      TINYINT(1) DEFAULT 0,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- ─────────────────────────────────────────────
--- FIN DEL SCRIPT
--- ─────────────────────────────────────────────
