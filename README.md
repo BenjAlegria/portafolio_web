@@ -4,7 +4,7 @@
 
 ## 🔗 Proyecto en Producción
 
-**[https://teclab.uct.cl/~balegria2025/portafolio/index.php](https://teclab.uct.cl/~balegria2025portafolio/index.php)**
+**[https://teclab.uct.cl/~balegria2025/portafolio/index.php](https://teclab.uct.cl/~balegria2025/portafolio/index.php)**
 
 ## 📋 Descripción
 
