@@ -21,8 +21,8 @@
 ### Prompt 1 — Estructura inicial del proyecto
 ```
 Ayúdame a crear la estructura de carpetas y archivos para un portafolio 
-web en PHP con: página principal, login, dashboard administrativo y 
-conexión a MySQL con PDO. Incluye buenas prácticas de organización.
+web en PHP con pagina principal, login, dashboard administrativo y 
+conexion a MySQL con PDO. Incluye buenas practicas de organizacion.
 ```
 
 **Resultado obtenido:**  

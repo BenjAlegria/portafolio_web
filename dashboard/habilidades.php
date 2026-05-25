@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $pdo) {
 
 $habilidades = getHabilidades($pdo) ?? [];
 
-// Íconos predefinidos
+// Iconos predefinidos
 $iconosDisponibles = [
     'HTML5'      => '<i class="bi bi-filetype-html fs-1" style="color:#e34c26"></i>',
     'CSS3'       => '<i class="bi bi-filetype-css fs-1" style="color:#264de4"></i>',

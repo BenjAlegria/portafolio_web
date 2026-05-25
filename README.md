@@ -4,7 +4,7 @@
 
 ## 🔗 Proyecto en Producción
 
-**[https://teclab.uct.cl/~usuario/portafolio/](https://teclab.uct.cl/~usuario/portafolio/)**
+**[https://teclab.uct.cl/~balegria2025/portafolio/index.php](https://teclab.uct.cl/~balegria2025/portafolio/index.php)**
 
 > *(Reemplaza `usuario` con tu nombre de usuario de TECLAB)*
 
