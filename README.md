@@ -49,35 +49,6 @@ portafolio/
 └── api/
     └── contacto.php       # Endpoint AJAX contacto
 ```
-
-## ⚙️ Instalación
-
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/BenjAlegria/portafolio_web.git
-```
-
-### 2. Crear la base de datos
-```bash
-mysql -u root -p < bd.sql
-```
-
-### 3. Configurar conexión BD
-Edita `includes/db.php`:
-```php
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'portafolio_db');
-define('DB_USER', 'tu_usuario');
-define('DB_PASS', 'tu_contraseña');
-```
-
-### 4. Acceso al panel admin
-- **URL:** `/login.php`
-- **Usuario:** `admin`
-- **Contraseña:** `admin123`
-
-> ⚠️ Cambia las credenciales en producción
-
 ## ✨ Funcionalidades
 
 - ✅ Navbar responsive con scroll activo
