@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS balegria_db1
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;
 
-USE balegria_db1
+USE balegria_db1;
 
 -- TABLA: admin_users (Usuarios administradores)
 CREATE TABLE IF NOT EXISTS admin_users (
