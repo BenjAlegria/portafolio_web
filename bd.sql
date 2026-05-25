@@ -33,9 +33,8 @@ INSERT INTO biografia (nombre, titulo, descripcion, email, github, linkedin) VAL
     'Benjamin Ignacio Alegria Barrientos',
     'Estudiante Tec. Informática UCT',
     'Estudiante con formación en modelado de bases de datos, programación y documentación técnica. Me apasiona encontrar soluciones prácticas a problemas tecnológicos y optimizar procesos mediante el uso de herramientas digitales.',
-    'benjamin.alegria@uct.cl',
+    'balegria2025@alu.uct.cl',
     'https://github.com/BenjAlegria',
-    'https://linkedin.com/in/benjaminalegria'
 );
 
 -- TABLA: habilidades
@@ -87,7 +86,7 @@ CREATE TABLE IF NOT EXISTS proyectos (
     created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO proyectos (titulo, descripcion, tecnologias, url_demo, url_github) VALUES
+INSERT INTO proyectos (titulo, descripcion, tecnologias,) VALUES
 (
     'Sistema de Gestión Escolar',
     'Aplicación web para gestionar estudiantes, profesores y calificaciones. Desarrollada con PHP, MySQL y Bootstrap.',
