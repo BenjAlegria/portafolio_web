@@ -4,11 +4,7 @@
 
 ## 🔗 Proyecto en Producción
 
-**[https://teclab.uct.cl/~balegria2025/portafolio/index.php](https://teclab.uct.cl/~balegria2025/portafolio/index.php)**
-
-> *(Reemplaza `usuario` con tu nombre de usuario de TECLAB)*
-
----
+**[https://teclab.uct.cl/~balegria2025/portafolio/index.php](https://teclab.uct.cl/~balegria2025portafolio/index.php)**
 
 ## 📋 Descripción
 
@@ -36,7 +32,7 @@ portafolio/
 ├── README.md
 ├── assets/
 │   ├── css/style.css      # Estilos principales
-│   ├── js/main.js         # JavaScript principal
+│   ├── js/script.js       # JavaScript principal
 │   └── img/               # Imágenes del proyecto
 ├── includes/
 │   ├── db.php             # Conexión PDO a MySQL
@@ -58,7 +54,7 @@ portafolio/
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/usuario/portafolio.git
+git clone https://github.com/BenjAlegria/portafolio_web.git
 ```
 
 ### 2. Crear la base de datos
@@ -106,10 +102,9 @@ Ver documento `uso-ia.md` para detalle completo de:
 ## 📐 Diseño
 
 El proyecto fue desarrollado en base al wireframe diseñado en **Figma**.
-[Ver diseño en Figma](https://www.figma.com/make/GWD81zJlmN3wp3Q5pvQL3l/)
+[Ver diseño en Figma](https://www.figma.com/make/GWD81zJlmN3wp3Q5pvQL3l/Diseñar-wireframe-portafolio-web?p=f&t=Baomd5WGEgXiDcTh-0/)
 
 ---
 
 **Autor:** Benjamin Ignacio Alegria Barrientos  
-**Institución:** Universidad Católica de Temuco — Tec. Informática  
-**Año:** 2025
+**Institución:** Universidad Católica de Temuco — Tec. Informática
